@@ -4,7 +4,7 @@ Projeto de uma API para cadastro de pessoas, incluindo nome, sobrenome, idade e 
 
 ## Tecnologias:
 - .Net Core (C#);
-- [ElephantSQl (Postgres)](https://www.elephantsql.com/) para a persistência dos dados (Vide Ref.);
+- [ElephantSQL (Postgres)](https://www.elephantsql.com/) para a persistência dos dados (Vide Ref.);
 - Azure Web Application, para deploy da API na nuvem.
 
 ## Características:
