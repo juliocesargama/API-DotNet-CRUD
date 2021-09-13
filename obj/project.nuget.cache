@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eeuV40cEYo+MNJ7HFcCi/YzmWaTy/FiCMNNmugDR8lPf9ArhfKu/dONIrUGvv1t5RKD/xsgGGjxTAT1cuWgXPg==",
+  "dgSpecHash": "+PtLytrWy/DSKFTa+dfiaU5hrNAQzsw8cQVMsSBrD3KSzht+t69JTNuh6j1XTnJAFwGclAO4cFAMUPCeyXBsTg==",
   "success": true,
-  "projectFilePath": "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
+  "projectFilePath": "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
   "expectedPackageFiles": [
     "/home/julio/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/home/julio/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj": {}
+    "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj": {}
   },
   "projects": {
-    "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj": {
+    "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
+        "projectUniqueName": "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
         "projectName": "CRUDAPI",
-        "projectPath": "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
+        "projectPath": "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/CRUDAPI.csproj",
         "packagesPath": "/home/julio/.nuget/packages/",
-        "outputPath": "/home/julio/Desenvolvimento/CRUD-Angular-DotNet/CRUDAPI/obj/",
+        "outputPath": "/home/julio/Desenvolvimento/Outros/CRUD-Angular-DotNet/CRUDAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/julio/.nuget/NuGet/NuGet.Config"
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.206/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,7 +14,13 @@ Projeto de uma API para cadastro de pessoas, incluindo nome, sobrenome, idade e 
 - Npgsql.
 
 ## Instruções para a instalação:
-Não será necessária instalação, o projeto em funcionamento encontra-se neste [Link](https://api-crud-jcgama.azurewebsites.net/api/persons).
+
+Para rodar o projeto, no terminal:
+```sh
+dotnet run
+```
+
+O projeto em funcionamento encontra-se neste [Link](https://api-crud-jcgama.azurewebsites.net/api/persons).
 
 
 ## Referências:
