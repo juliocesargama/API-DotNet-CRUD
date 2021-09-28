@@ -9,8 +9,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CRUDAPI.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210808171335_createdb")]
-    partial class createdb
+    [Migration("20210928030846_CreateDB")]
+    partial class CreateDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,24 +22,24 @@ namespace CRUDAPI.Migrations
 
             modelBuilder.Entity("CRUDAPI.Models.Person", b =>
                 {
-                    b.Property<int>("personID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<int>("personAge")
+                    b.Property<int>("age")
                         .HasColumnType("integer");
 
-                    b.Property<string>("personLastName")
+                    b.Property<string>("lastName")
                         .HasColumnType("text");
 
-                    b.Property<string>("personName")
+                    b.Property<string>("name")
                         .HasColumnType("text");
 
-                    b.Property<string>("personProfession")
+                    b.Property<string>("profession")
                         .HasColumnType("text");
 
-                    b.HasKey("personID");
+                    b.HasKey("ID");
 
                     b.ToTable("Persons");
                 });

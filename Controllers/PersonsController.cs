@@ -22,10 +22,10 @@ namespace CRUDAPI.Controllers
             return await _context.Persons.ToListAsync();
         }
 
-        [HttpGet("{personID}")]
-        public async Task<ActionResult<Person>> GetPersonByIDAsync(int personID)
+        [HttpGet("{ID}")]
+        public async Task<ActionResult<Person>> GetPersonByIDAsync(int ID)
         {
-            Person person = await _context.Persons.FindAsync(personID);
+            Person person = await _context.Persons.FindAsync(ID);
             if (person == null)
             {
                 return NotFound();
@@ -51,10 +51,10 @@ namespace CRUDAPI.Controllers
             return Ok();
         }
 
-        [HttpDelete("{personID}")]
-        public async Task<ActionResult> DeletePersonAsync(int personID)
+        [HttpDelete("{ID}")]
+        public async Task<ActionResult> DeletePersonAsync(int ID)
         {
-            Person person = await _context.Persons.FindAsync(personID);
+            Person person = await _context.Persons.FindAsync(ID);
             if (person == null)
             {
                 return NotFound();

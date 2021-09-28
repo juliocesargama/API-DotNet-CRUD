@@ -2,10 +2,10 @@ namespace CRUDAPI.Models
 {
     public class Person
     {
-        public int personID { get; set; }
-        public string personName { get; set; }
-        public string personLastName { get; set; }
-        public int personAge { get; set; }
-        public string personProfession { get; set; }
+        public int ID { get; set; }
+        public string name { get; set; }
+        public string lastName { get; set; }
+        public int age { get; set; }
+        public string profession { get; set; }
     }
 }

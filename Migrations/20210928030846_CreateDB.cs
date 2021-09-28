@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace CRUDAPI.Migrations
 {
-    public partial class createdb : Migration
+    public partial class CreateDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,16 +11,16 @@ namespace CRUDAPI.Migrations
                 name: "Persons",
                 columns: table => new
                 {
-                    personID = table.Column<int>(type: "integer", nullable: false)
+                    ID = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    personName = table.Column<string>(type: "text", nullable: true),
-                    personLastName = table.Column<string>(type: "text", nullable: true),
-                    personAge = table.Column<int>(type: "integer", nullable: false),
-                    personProfession = table.Column<string>(type: "text", nullable: true)
+                    name = table.Column<string>(type: "text", nullable: true),
+                    lastName = table.Column<string>(type: "text", nullable: true),
+                    age = table.Column<int>(type: "integer", nullable: false),
+                    profession = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Persons", x => x.personID);
+                    table.PrimaryKey("PK_Persons", x => x.ID);
                 });
         }
 
